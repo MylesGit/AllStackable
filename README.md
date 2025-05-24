@@ -14,25 +14,26 @@ All Stackable (**Original**)
 
 ## Usage
 
-- `/allstackable show all`: list all modified items.
-- `/allstackable show [item]`: show information of a specified item.
-- `/allstackable show hand [player]`: show information about an item on a player's hand.
-- `/allstackable reset all`: revert all changes.
-- `/allstackable reset [item]`: reset a specified item.
-- `/allstackable reset hand [player]`: reset an item on a player's hand.
-- `/allstackable set [itemID] [count]`: set the max stackable count of a specified item.
-- `/allstackable set hand [player]`: set the max stackable count of an item on a player's hand.
+- `/allstackable show all`: List all modified items.
+- `/allstackable show [item]`: Show information about a specified item.
+- `/allstackable show hand [player]`: Show information about an item in the player's hand.
+- `/allstackable reset all`: Reset all changes.
+- `/allstackable reset [item]`: Reset a specified item.
+- `/allstackable reset hand [player]`: Reset an item in a player's hand.
+- `/allstackable set [itemID] [count]`: Set the max stackable count of a specified item.
+- `/allstackable set hand [player]`: Set the max stackable count of an item in a player's hand.
 - `/allstackable set vanilla [default value] [new value]`: Apply **new value** to the stackable size of items whose default size is **default value**. (Only works for items that haven't been modified.)
 - `/allstackable set modified [current value] [new value]`: Apply **new value** to the stackable size of items whose current size is **current value**. (Only works for items that have been modified.)
 - `/allstackable set all [current value] [new value]`: Apply **new value** to the stackable size of items whose current size is **current value**. (Applies to all items.)
 - `/allstackable config reload`: Reload config from file.
-- `/allstackable config loadFromGlobal`: load the global config (stored in Minecraft's config folder) to your game.
+- `/allstackable config loadFromGlobal`: Load the global config (stored in Minecraft's config folder) to your game.
 - `/allstackable config saveToGlobal`: Let your current config be the global one.
-- `/allstackable config globalConfigAutoApply [true/false]`: whether the global config will be automatically applied to every new game.
-- `/allstackable config restore`: restore to last change
+- `/allstackable config globalConfigAutoApply [true/false]`: Whether the global config will be automatically applied to every new game.
+- `/allstackable config restore`: Restore to last change.
 
-- **If you want to use this mod without OP/cheat, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
-- **If you want only stack empty shulkerbox, change the setting manually in the config files (0 -> 1)**
+
+- **If you want to use this mod without operator, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
+- **If you want to only stack empty shulkerbox, change the setting manually in the config files (0 -> 1).**
 
 ### FAQ
 
