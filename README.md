@@ -1,48 +1,18 @@
-# All Stackable
+# All Stackable Continued
 
-![](https://i.imgur.com/31Q4pb2.png "")
-
-**A highly customizable Fabric Mod that makes items stackable and changes their stack size.**
+**An updated version of AllStackable**
 
 ***Ever wanted to stack potions, totems, or Shulker Boxes in one slot? Or perhaps you hope to sort totems produced by the raid farm using your Redstone machines? This is the mod for you!***
 
-<!--- markdown syntax
-[![Supported on Fabric](https://cdn.discordapp.com/attachments/705864145169416313/969720133998239794/fabric_supported.png)](https://fabricmc.net/)
-[![Supported on Quilt](https://cdn.discordapp.com/attachments/705864145169416313/969716884482183208/quilt_supported.png)](https://quiltmc.org/)
--->
-
-<a href="https://fabricmc.net/"><img
-    src="https://cdn.discordapp.com/attachments/705864145169416313/969720133998239794/fabric_supported.png"
-    alt="Supported on Fabric"
-    width="200"></a>
-<a href="https://quiltmc.org/"><img
-    src="https://cdn.discordapp.com/attachments/705864145169416313/969716884482183208/quilt_supported.png"
-    alt="Supported on Quilt"
-    width="200"></a>
-
-
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/KrisCris/AllStackable/gradle.yml)
-![License](https://img.shields.io/github/license/KrisCris/AllStackable)
-[![Download from CurseForge](http://cf.way2muchnoise.eu/versions/404312.svg)](https://www.curseforge.com/minecraft/mc-mods/all-stackable/files)
-[![Download from CurseForge](https://cf.way2muchnoise.eu/full_404312_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/all-stackable/files)
-[![Download from Modrinth](https://img.shields.io/modrinth/dt/mwMd6V4r?logo=modrinth&label=&style=flat&color=242629&labelColor=00AF5C&logoColor=black)](https://modrinth.com/mod/mwMd6V4r)
-
-Video: https://streamable.com/7htqbn ( Issues in the video have already been fixed! )
-
 ## Download
 
+All Stackable (**Original**)
 **[Modrinth](https://modrinth.com/mod/all-stackable)**
 
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/all-stackable)
-
-[Github Action Artifacts](https://github.com/KrisCris/AllStackable/actions)
-
+**All Stackable Continued** PLACEHOLDER
+**[Modrinth](https://modrinth.com/mod/all-stackable)**
 
 ## Usage
-
----
-
-**English**
 
 - `/allstackable show all`: list all modified items.
 - `/allstackable show [item]`: show information of a specified item.
@@ -63,31 +33,7 @@ Video: https://streamable.com/7htqbn ( Issues in the video have already been fix
 
 - **If you want to use this mod without OP/cheat, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
 - **If you want only stack empty shulkerbox, change the setting manually in the config files (0 -> 1)**
-
----
-
-[**Chinese**](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1112866)
-
-- `/allstackable show all`: 列出所有修改过的物品.
-- `/allstackable show [item]`: 显示这个物品的信息.
-- `/allstackable show hand [player]`: 显示玩家手上的物品信息.
-- `/allstackable reset all`: 撤销所有更改.
-- `/allstackable reset [item]`: 撤销对这个物品的更改.
-- `/allstackable reset hand [player]`: 撤销玩家手上的物品的更改.
-- `/allstackable set [itemID] [count]`: 更改指定物品的堆叠数量.
-- `/allstackable set hand [player]`: 更改玩家手上物品的堆叠数量.
-- `/allstackable set vanilla [default value] [new value]`: 将所有默认堆叠上限为【default value】的物品的堆叠上限设置为【new value】（只对未被修改过的物品生效）
-- `/allstackable set modified [current value] [new value]`: 将所有被修改过堆叠上限，且为【current value】的物品的堆叠上限设置为【new value】（只对被修改过的物品生效）
-- `/allstackable set all [current value] [new value]`: 将所有当前堆叠上限为【current value】的物品的堆叠上限设置为【new value】
-- `/allstackable config reload`: 重新从文件载入配置文件.
-- `/allstackable config loadFromGlobal`: 为你当前游戏载入全局配置（保存在config文件夹里）.
-- `/allstackable config saveToGlobal`: 让你当前游戏配置成为全局配置.
-- `/allstackable config globalConfigAutoApply [true/false]`: 是否让新游戏自动使用全局配置，true代表是.
-- `/allstackable config restore`: 恢复到上次的更变
-
-- **如果你想在非op或者作弊的情况下使用，你可以把存档文件夹中配置文件里的 "permissionLevel" 从4 改到 0.**
-- **如果你想只堆叠空的潜影盒，你可以把存档文件夹中配置文件里的 "stackEmptyShulkerBoxOnly" 从0 改到 1.**
-
+- 
 ### FAQ
 
 [1]. Where is the config file stored?
@@ -118,7 +64,11 @@ Video: https://streamable.com/7htqbn ( Issues in the video have already been fix
 
 [7]. I found a bug! / This mod doesn't work! / Any other Issues
 
-**[Report!](https://github.com/KrisCris/AllStackable/issues/)**
+**[Report!](https://github.com/MylesGit/AllStackable/issues)**
+
+[8]. Why fork the original repository? (https://github.com/KrisCris/AllStackable)
+
+**The original auther seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
 
 ## Notice:
 
@@ -126,16 +76,10 @@ Video: https://streamable.com/7htqbn ( Issues in the video have already been fix
 
 **[1].** Have a test before using/consuming certain types of stacked items (especially those having special functionalities), since you may lose them all or encounter unexpected behaviors. (Even though most issues are fixed in previous versions, please let me know if you found new bugs.)
 
-## Check out my other mods if you like! :)
-
- - [TotemPlus - Save you from falling out of the world!](https://www.curseforge.com/minecraft/mc-mods/totem-plus)
-
----
-
-
 ## Contributors - Thank YOU!
 
 - luaanon
 - MeeniMc
 - chimericdream
 - triphora
+- zhaixianyu
