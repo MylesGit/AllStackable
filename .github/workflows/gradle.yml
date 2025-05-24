@@ -72,5 +72,5 @@ jobs:
           # Artifact name
           name: AllStackableContinued_Java${{ matrix.java }}
           # A file, directory or wildcard pattern that describes what to upload
-          path:  build/libs/AllStackableContinued-*.*-*.*[^sourcedv].jar
+          path:  build/libs/
             # The desired behavior if no files are found using the provided path.
