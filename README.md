@@ -61,14 +61,9 @@ All Stackable (**Original**)
 
 **Not supported.**
 
-[7]. I found a bug! / This mod doesn't work! / Any other Issues
-
-**[Report!](https://github.com/MylesGit/AllStackable/issues)**
-
-[8]. Why fork the original repository? (https://github.com/KrisCris/AllStackable)
+[7]. Why fork the original repository? (https://github.com/KrisCris/AllStackable)
 
 **The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
-
 ## Notice:
 
 (Some issues related to how Minecraft's code works)
