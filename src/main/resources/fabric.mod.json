@@ -9,8 +9,9 @@
 		"MylesGit"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/all-stackable/",
-		"sources": "https://github.com/KrisCris/AllStackable"
+		"homepage": "",
+		"sources": "https://github.com/MylesGit/AllStackableContinued",
+		"issues": "https://github.com/MylesGit/AllStackableContinued/issues"
 	},
 	"license": "GPL-3.0",
 	"icon": "assets/allstackable/icon.png",
