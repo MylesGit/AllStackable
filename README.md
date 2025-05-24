@@ -35,11 +35,11 @@ All Stackable (**Original**)
 - **If you want to use this mod without operator, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
 - **If you want to only stack empty shulkerbox, change the setting manually in the config files (0 -> 1).**
 
-### FAQ
+## FAQ
 
 [1]. Where is the config file stored?
 
-**They are stored in the folder of your world. (There is also a global config, which would apply its settings to all new games. Only works after you turned it on.)**
+**They are stored in the folder of your world. (There is also a global config, which would apply its settings to all new saves. Only works after you turned it on.)**
 
 [2]. Can I migrate the config from one world to another?
 
@@ -47,21 +47,19 @@ All Stackable (**Original**)
 
 [3]. What will happen to my world if I delete this mod?
 
-**Don't worry, this mod updates items' stack size dynamically and changes NOTHING to the data (Though you have to manually split those items that are already stacked.). And if you install this mod back, all features come back as long as you didn't remove the config file.**
+**Don't worry, this mod updates items stack size dynamically and changes NOTHING about the data (Though you have to manually split those items that are already stacked). If you reinstall this mod, all features will come back as long as you didn't remove the config file.**
 
 [4]. Server?
 
-**You have to install this mod on both sides. The server will automatically let clients know if any item needs to be modified and synced.**
-
-**Also, use [LoganDark's mod, fabric-languagehack](https://github.com/LoganDark/fabric-languagehack/releases), or something similar for enabling server-side (server cli) text translation if you want to see feedback in the console.**
+**This mod is required on both servers and clients. The server will automatically let clients know if any item needs to be modified and synced.**
 
 [5]. Sorting non-stackable items that are made stackable by this mod.
 
-**Identical to sorting normal items. https://streamable.com/11hm1a**
+**Identical to sorting normal items.**
 
 [6]. Surpass 64-item limit?
 
-***NO***
+**Not supported.**
 
 [7]. I found a bug! / This mod doesn't work! / Any other Issues
 
@@ -69,7 +67,7 @@ All Stackable (**Original**)
 
 [8]. Why fork the original repository? (https://github.com/KrisCris/AllStackable)
 
-**The original auther seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
+**The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
 
 ## Notice:
 
