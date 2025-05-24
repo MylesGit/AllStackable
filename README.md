@@ -76,6 +76,8 @@ All Stackable (**Original**)
 
 **[1].** Have a test before using/consuming certain types of stacked items (especially those having special functionalities), since you may lose them all or encounter unexpected behaviors. (Even though most issues are fixed in previous versions, please let me know if you found new bugs.)
 
+**[2]. I am not the orignal author. You can find them here: https://github.com/KrisCris**
+
 ## Contributors - Thank YOU!
 
 - luaanon
