@@ -27,5 +27,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AllStackableContinued-${{ steps.ref.outputs.branch }}
-          path: build/mods/*.jar
+          name: AllStackableContinued-Artifact
+          path: build/libs/*.jar
