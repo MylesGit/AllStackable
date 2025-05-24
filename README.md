@@ -33,7 +33,7 @@ All Stackable (**Original**)
 
 - **If you want to use this mod without OP/cheat, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
 - **If you want only stack empty shulkerbox, change the setting manually in the config files (0 -> 1)**
-- 
+
 ### FAQ
 
 [1]. Where is the config file stored?
