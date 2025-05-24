@@ -1,6 +1,6 @@
 # All Stackable Continued
 
-**An updated version of AllStackable**
+**An updated version of [AllStackable](https://github.com/KrisCris/AllStackable)**
 
 ***Ever wanted to stack potions, totems, or Shulker Boxes in one slot? Or perhaps you hope to sort totems produced by the raid farm using your Redstone machines? This is the mod for you!***
 
