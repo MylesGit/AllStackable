@@ -78,7 +78,7 @@ All Stackable (**Original**)
 
 **[2]. I am not the orignal author. You can find them here: https://github.com/KrisCris**
 
-## Contributors - Thank YOU!
+## Contributors
 
 - luaanon
 - MeeniMc
