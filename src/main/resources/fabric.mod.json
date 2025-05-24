@@ -1,11 +1,12 @@
 {
 	"schemaVersion": 1,
-	"id": "allstackable",
+	"id": "allstackablecontinued",
 	"version": "${version}",
-	"name": "AllStackable",
-	"description": "A highly customizable Fabric Mod that makes items stackable and allows you to change the stack size of them.",
+	"name": "AllStackableContinued",
+	"description": "An updated version of AllStackable, a highly customizable Minecraft Fabric Mod that makes items stackable and changes their stack size.",
 	"authors": [
-		"connlost"
+		"connlost",
+		"MylesGit"
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/all-stackable/",
