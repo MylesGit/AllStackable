@@ -1,16 +1,6 @@
-# All Stackable Continued
+An updated version of [AllStackable](https://modrinth.com/mod/all-stackable)
 
-**An updated version of [AllStackable](https://github.com/KrisCris/AllStackable)**
-
-***Ever wanted to stack potions, totems, or Shulker Boxes in one slot? Or perhaps you hope to sort totems produced by the raid farm using your Redstone machines? This is the mod for you!***
-
-## Download
-
-All Stackable (**Original**)
-**[Modrinth](https://modrinth.com/mod/all-stackable)**
-
-**All Stackable Continued** PLACEHOLDER
-**[Modrinth](https://modrinth.com/mod/all-stackable)**
+Allows you configure stack size (<64) and make items that would normally not be stackable, stackable.
 
 ## Usage
 
@@ -33,7 +23,7 @@ All Stackable (**Original**)
 
 
 - **If you want to use this mod without operator, you can manually set the "permissionLevel" from 4 to 0 in the config file (in your save folder).**
-- **If you want to only stack empty shulkerbox, change the setting manually in the config files (0 -> 1).**
+- **If you want to only stack empty shulkerboxes, change the setting manually in the config files (0 -> 1).**
 
 ## FAQ
 
@@ -43,7 +33,7 @@ All Stackable (**Original**)
 
 [2]. Can I migrate the config from one world to another?
 
-**Just copy and paste the config file to your new world, then use `/allstackable reload` if you're already in the world.**
+**Just copy and paste the config file to your new world, then use `/allstackable reload`.**
 
 [3]. What will happen to my world if I delete this mod?
 
@@ -61,16 +51,17 @@ All Stackable (**Original**)
 
 **Not supported.**
 
-[7]. Why fork the original repository? (https://github.com/KrisCris/AllStackable)
+[7]. Why fork the [original repository](https://github.com/KrisCris/AllStackable)?
 
-**The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
+**The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the original author comes back.**
+
 ## Notice:
 
 (Some issues related to how Minecraft's code works)
 
-**[1].** Have a test before using/consuming certain types of stacked items (especially those having special functionalities), since you may lose them all or encounter unexpected behaviors. (Even though most issues are fixed in previous versions, please let me know if you found new bugs.)
+**[1].** Test before using/consuming certain types of stacked items (especially those having special functionalities), since you may lose them all or encounter unexpected behaviors. (Even though most issues should be fixed)
 
-**[2]. I am not the orignal author. You can find them here: https://github.com/KrisCris**
+**[2]. I am not the original author. You can find them here: https://github.com/KrisCris**
 
 ## Contributors
 
