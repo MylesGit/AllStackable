@@ -2,7 +2,7 @@ An updated version of [AllStackable](https://modrinth.com/mod/all-stackable)
 
 [AllStackableContinued Modrinth](https://modrinth.com/mod/allstackablecontinued)
 
-Allows you configure stack size (<64) and make items that would normally not be stackable, stackable.
+Allows you to configure stack size (<64) and make items that would normally not be stackable, stackable.
 
 ## Usage
 
