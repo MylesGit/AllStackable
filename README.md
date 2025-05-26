@@ -53,7 +53,7 @@ Allows you configure stack size (<64) and make items that would normally not be 
 
 [7]. Why fork the [original repository](https://github.com/KrisCris/AllStackable)?
 
-**The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the orignal author comes back.**
+**The original author seems to not be maintaining the original repository. The sole purpose of this fork is to implement some pull requests that have been sitting stale for a long time and fix various issues that I currently would like. I do not plan on this being a hard fork; Meaning, I will probably cease development when or if the original author comes back.**
 
 ## Notice:
 
