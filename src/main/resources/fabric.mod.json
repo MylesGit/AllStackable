@@ -3,7 +3,7 @@
 	"id": "allstackablecontinued",
 	"version": "${version}",
 	"name": "AllStackableContinued",
-	"description": "An updated version of AllStackable, a highly customizable Minecraft Fabric Mod that makes items stackable and changes their stack size.",
+	"description": "An updated version of AllStackable, a highly customizable Minecraft Fabric Mod that allows you to make items stackable and change their stack size.",
 	"authors": [
 		"connlost",
 		"MylesGit"
@@ -13,7 +13,7 @@
 		"sources": "https://github.com/MylesGit/AllStackableContinued",
 		"issues": "https://github.com/MylesGit/AllStackableContinued/issues"
 	},
-	"license": "GPL-3.0",
+	"license": "LGPL-3.0",
 	"icon": "assets/allstackable/icon.png",
 	"environment": "*",
 	"entrypoints": {
