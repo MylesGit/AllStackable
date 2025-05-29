@@ -21,6 +21,6 @@ public class AllStackable implements ModInitializer{
         StackSizeCommand.register();
         LOGGER.info("[All Stackable] Command registered.");
         ServerLifecycleEvents.SERVER_STARTING.register(Server::onServerLoaded);
-		ServerLifecycleEvents.SERVER_STARTED.register((minecraftServer) -> config_manager.sandConfig2Player());
+		ServerLifecycleEvents.SERVER_STARTED.register((minecraftServer) -> config_manager.sendConfigToPlayer());
     }
 }
