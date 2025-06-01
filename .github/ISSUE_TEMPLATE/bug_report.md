@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
+about: Report Bug(s)
+title: "[BUG]"
 labels: bug
-assignees: ''
+assignees: MylesGit
 
 ---
 
@@ -24,9 +24,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Version (please complete the following information):**
- - Minecraft Version: [e.g. 1.18.1]
- - Mod Version [e.g. 1.5.0]
- - Java Version [e.g. 1.17]
+ - Minecraft Version: [e.g. 1.21]
+ - Mod Version [e.g. 3.0.1]
+ - Java Version [e.g. 21]
 
 
 **Other mods**
