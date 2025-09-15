@@ -20,7 +20,7 @@ public final class ConfigManager {
     private File globalConfigFile;
     private final Gson gson;
     private final ItemsHelper itemsHelper;
-    private ArrayList<LinkedHashMap<String, Integer>> configList;
+    public ArrayList<LinkedHashMap<String, Integer>> configList;
     private ArrayList<LinkedHashMap<String, Integer>> globalConfigList;
 
     @Deprecated
@@ -47,6 +47,8 @@ public final class ConfigManager {
         }
         defaultRules.put("permissionLevel", 4);
         defaultRules.put("stackEmptyShulkerBoxOnly", 0);
+        defaultRules.put("vanillaHopperBehavior", 0);
+        defaultRules.put("vanillaComparatorBehavior", 0);
         return defaultRules;
     }
 
@@ -219,7 +221,7 @@ public final class ConfigManager {
         }
     }
 
-    private void writeConfig(File configFile, ArrayList<LinkedHashMap<String, Integer>> configData) {
+    public void writeConfig(File configFile, ArrayList<LinkedHashMap<String, Integer>> configData) {
         if (configFile == null) {
             AllStackable.LOGGER.error("[All Stackable] Cannot write config - null file");
             return;

@@ -12,16 +12,18 @@
     "MixinDispenserBehavior8",
     "MixinDispenserBehavior9",
     "MixinDispenserBlockEntity",
+    "MixinHopperBlockEntity",
     "MixinHorseScreenHandler",
     "MixinItem",
     "MixinItemStack",
     "MixinJukeboxBlockEntity",
+    "MixinLevelStorage",
     "MixinPlayerManager",
     "MixinPotionItem",
     "MixinPowderSnowBucketItem",
+    "MixinScreenHandler",
     "MixinServerPlayNetworkHandler",
-    "MixinSuspiciousStewItem",
-    "MixinLevelStorage"
+    "MixinSuspiciousStewItem"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -19,6 +19,7 @@ import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerPlayerEntity;
 
 import java.util.LinkedList;
+import java.util.LinkedHashMap;
 
 public class StackSizeCommand {
 
@@ -158,6 +159,15 @@ public class StackSizeCommand {
         }
     }
 
+    private static int setRule(ServerCommandSource source, String rule, int value) {
+        LinkedHashMap<String, Integer> newRules = new LinkedHashMap<>(configManager.configList.get(1));
+        newRules.put(rule, value);
+        configManager.setRulesMap(newRules);
+        configManager.writeConfig(configManager.configFile, configManager.configList);
+        source.sendFeedback(() -> Text.translatable("as.command.rule_set", rule, value), true);
+        return 1;
+    }
+
     private static int help(ServerCommandSource source) {
         source.sendFeedback(() -> Text.translatable("as.command.help"), false);
         return 1;
@@ -260,6 +270,14 @@ public class StackSizeCommand {
                             .then(literal("globalConfigAutoApply")
                                     .then(literal("true").executes(ctx -> updateGlobalConfig(ctx.getSource(), true, false)))
                                     .then(literal("false").executes(ctx -> updateGlobalConfig(ctx.getSource(), false, false)))
+                            )
+                            .then(literal("vanillaHopper")
+                                    .then(literal("true").executes(ctx -> setRule(ctx.getSource(), "vanillaHopperBehavior", 1)))
+                                    .then(literal("false").executes(ctx -> setRule(ctx.getSource(), "vanillaHopperBehavior", 0)))
+                            )
+                            .then(literal("vanillaComparator")
+                                    .then(literal("true").executes(ctx -> setRule(ctx.getSource(), "vanillaComparatorBehavior", 1)))
+                                    .then(literal("false").executes(ctx -> setRule(ctx.getSource(), "vanillaComparatorBehavior", 0)))
                             )
                             .then(literal("restore")
                                     .executes(ctx -> restore(ctx.getSource()))
